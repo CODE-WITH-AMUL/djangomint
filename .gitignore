@@ -1,23 +1,82 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+############################################
+# OS / System files
+############################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################################
+# Editors / IDEs
+############################################
 .vscode/
-#Cache folder
+.idea/
+*.swp
+*.swo
+
+############################################
+# Python
+############################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite (optional, common in Django)
+*.sqlite3
+
+############################################
+# Django
+############################################
+*.log
+local_settings.py
+db.sqlite3
+
+############################################
+# AL Language (Dynamics 365 Business Central)
+############################################
+.vscode/
 .alcache/
-#Symbols folder
 .alpackages/
-#Snapshots folder
 .snapshots/
-#Testing Output folder
 .output/
-#Extension App-file
 *.app
-#Rapid Application Development File
 rad.json
-#Translation Base-file
 *.g.xlf
-#License-files
 *.bclicense
 *.flf
-#Test results file
 TestResults.xml
+
+############################################
+# Local overrides
+############################################
+*.local
+local.gitignore

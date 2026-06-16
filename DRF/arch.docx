@@ -1,0 +1,77 @@
+Then the user sees an interactive wizard:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Django Fast UV
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Project Name:
+❯ myapp
+
+Then:
+
+Select Database
+◉ PostgreSQL
+○ MySQL
+○ SQLite
+
+Then:
+
+Select Authentication
+◉ Django Allauth
+○ JWT
+○ None
+
+Then:
+
+Select API Framework
+◉ Django Ninja
+○ Django REST Framework
+○ None
+
+Then:
+
+Select Frontend
+☑ Tailwind CSS
+☐ Bootstrap
+☐ HTMX
+
+Then:
+
+Additional Features
+
+☑ Docker
+☑ Celery
+☑ Redis
+☑ GitHub Actions
+☑ Pytest
+☐ Sentry
+☐ Stripe
+
+Then:
+
+Summary
+
+Project: myapp
+Database: PostgreSQL
+Auth: Allauth
+API: Ninja
+Frontend: Tailwind
+Docker: Yes
+Testing: Pytest
+
+Generate Project?
+[Y/n]
+
+And then:
+
+Generating Project...
+
+✓ Creating structure
+✓ Generating settings
+✓ Installing packages
+✓ Configuring database
+✓ Configuring authentication
+✓ Creating Docker files
+✓ Creating GitHub Actions
+
+Done!
