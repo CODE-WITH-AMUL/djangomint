@@ -62,17 +62,10 @@ We welcome contributions from the community! Here's how to get started:
 
 ```bash
 # Fork and clone
-git clone https://github.com/yourusername/django-fastuv.git
-cd django-fastuv
+git clone https://github.com/CODE-WITH-AMUL/djangomint.git
+cd djangomint
 
-# Install dependencies
-uv pip install -e ".[dev]"
 
-# Run tests
-python -m pytest
-
-# Run linting
-ruff check .
 ```
 
 Please read our [Contributing Guide](CONTRIBUTING.md) for more details.
