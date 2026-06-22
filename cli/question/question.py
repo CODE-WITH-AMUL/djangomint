@@ -28,3 +28,6 @@ def create_django_app():
     
     return app_name
 
+
+
+

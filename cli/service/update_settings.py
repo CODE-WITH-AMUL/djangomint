@@ -1,0 +1,6 @@
+
+
+
+INSTALLED_APPS = [
+    "accounts",
+]
